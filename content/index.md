@@ -1,5 +1,5 @@
 ---
-tags: 독서, 독서록, Data_Structure, Linux, Machine_Learning, Memo, PHP
+tags: 독서, 독서록, Data_Structure, JavaScript, Linux, Machine_Learning, Memo, PHP
 ---
 
 # 환영합니다!
