@@ -36,10 +36,10 @@ tags: 독서록, Machine_Learning
 
 ## 모델 기반 학습과 사례 기반 학습
 
-- 모델 기반 학습
+- **모델 기반 학습**
 	- 모델 파라미터를 찾는 것
 	- Linear Regression
-- 사례 기반 학습
+- **사례 기반 학습**
 	- 훈련 세트를 저장하는 것이 훈련
 	- k-최근접 이웃
 
@@ -48,7 +48,7 @@ tags: 독서록, Machine_Learning
 ## Linear Regression
 
 - <span style="border-radius: 5px; color: black; background-color: thistle">단일 독립변수 n차 방정식 → 직선</span>
-- 모델 파라미터
+- **모델 파라미터**
 	- 기울기 (계수 or 가중치)
 	- y절편
 - **과대적합 규제**
