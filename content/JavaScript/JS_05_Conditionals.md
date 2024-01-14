@@ -18,7 +18,7 @@ else if (age < 18) {
 else if (age >= 18 && age <= 50) {
     console.log("You can drink.");
 }
-else if (age == 100) {
+else if (age === 100) {
     console.log("Good.")
 }
 else {
