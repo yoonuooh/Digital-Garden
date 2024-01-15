@@ -1,5 +1,5 @@
 ---
-tag: 독서
+tags: 독서
 title: 챗GPT 기회를 잡는 사람들
 author: 장민
 total_page: 268
