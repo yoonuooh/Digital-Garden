@@ -10,6 +10,7 @@ tags: JavaScript
 - **const는 Object에 해당**
 	- Object를 수정하면 Error🚫
 	- Object 속성 수정, 추가 가능
+
 ```js
 const player = {
     name: "yoonuooh",
@@ -17,6 +18,7 @@ const player = {
     fat: true,
 	sayHello: function(otherPersonName) {
         console.log("Hello " + otherPersonName);
+	    // console.log(`Hello ${otherPersonName});
     },
 };
 

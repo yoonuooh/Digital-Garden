@@ -6,6 +6,7 @@ tags: JavaScript
 ## Function 선언
 
 - **PHP와 유사**
+
 ```js
 function sayHello(nameOfPerson, age) {
     console.log("Hello my name is " + nameOfPerson + " and I am " + age);
@@ -24,6 +25,7 @@ sayHello("C", 30);
 	- <span style="border-radius: 5px; color: black; background-color: salmon">반환된 값을 다른 계산에 사용할 수 있음</span>
 		- 함수의 실행 결과를 바로 출력할 때는 불가능
 	- return 뒤 코드는 실행❌
+
 ```js
 const calculator = {
     add: function (a, b) {

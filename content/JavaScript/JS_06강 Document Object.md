@@ -28,8 +28,9 @@ tags: JavaScript
 ## Event Listening
 
 - [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/HTMLHeadingElement)
-- **h1 태그를 클릭하면 글자 색을 파란색으로 변경**
-	- 함수명 뒤에 () 작성 금지
+- `addEventListener()`
+	- 동작하는 함수명 뒤에 () 작성 금지
+		- <span style="color: darkkhaki">()를 추가하면 조건이 만족하지 않아도 바로 함수를 실행</span>
 - **특정 요소를 대상으로 사용 가능한 이벤트 조회**
 	- `console.dir(element);`
 	- "on~" 값인 경우 사용 가능
@@ -37,15 +38,15 @@ tags: JavaScript
 ```js
 const title = document.querySelector("div.hello:first-child h1");
 
-function handleTitleClick () {
+function handleTitleClick() {
     title.style.color = "blue"; // JavaScript가 아니라 CSS로 style을 변경해야 적절함
 }
 
-function handleMouseEnter () {
+function handleMouseEnter() {
     title.innerText = "Mouse is here.";
 }
 
-function handleMouseLeave () {
+function handleMouseLeave() {
     title.innerText = "Mouse is gone.";
 }
 

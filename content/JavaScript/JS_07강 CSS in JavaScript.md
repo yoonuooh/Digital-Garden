@@ -12,7 +12,7 @@ tags: JavaScript
 ```js
 const h1 = document.querySelector("div.hello:first-child h1");
 
-function handleTitleClick () {
+function handleTitleClick() {
     const currentColor = h1.style.color;
     let newColor;
 
@@ -33,6 +33,7 @@ h1.addEventListener("click", handleTitleClick);
 ## className
 
 - **JavaScript로 태그의 class를 업데이트해서 style 변경**
+
 ```css
 body {
     background-color: beige;
@@ -54,7 +55,7 @@ h1 {
 ```js
 const h1 = document.querySelector("div.hello:first-child h1");
 
-function handleTitleClick () {
+function handleTitleClick() {
     const clickedClass = "clicked";
 
     if (h1.className === clickedClass) {
@@ -87,7 +88,7 @@ h1.addEventListener("click", handleTitleClick);
 ```js
 const h1 = document.querySelector("div.hello:first-child h1");
 
-function handleTitleClick () {
+function handleTitleClick() {
     const clickedClass = "clicked";
 
     if (h1.classList.contains(clickedClass)) {
@@ -106,7 +107,7 @@ $$\downarrow$$
 ```js
 const h1 = document.querySelector("div.hello:first-child h1");
 
-function handleTitleClick () {
+function handleTitleClick() {
     h1.classList.toggle("clicked");
 }
 

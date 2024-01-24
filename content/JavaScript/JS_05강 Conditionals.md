@@ -6,6 +6,7 @@ tags: JavaScript
 ## if - else if - else
 
 - **if구문, 논리 연산자가 C와 같음**
+
 ```js
 const age = parseInt(prompt("How old are you?")); // == int(input()) in Python
 
