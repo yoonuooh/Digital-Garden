@@ -6,12 +6,12 @@ tags: VLSI
 ## 설명
 
 - **Design Rule Constraints**
-	- Function이 의도한대로 작동하기 위해 반드시 만족해야 하는 제한 사항
+	- Function이 의도한대로 동작하기 위해 반드시 만족해야 하는 제한 사항
 	- [[Logic Library]]에서 정의
 	- [[MTT]], Maximum Fanout 등
 - **Optimization Constraints**
+	- 원하지만 중요하지는 않은 제한 사항
 	- Speed, Area, Power 목표
-	- 중요하지는 않지만 원하는 제한 사항
 	- Input/Output Delay, Maximum Area, Power Optimization 등
 
 > ([[Design Compiler User Guide.pdf#page=213&selection=34,0,35,21|Design Compiler User Guide, p.213]])

@@ -5,7 +5,7 @@ tags: VLSI
 
 ## 설명
 
-- **Library Component와 Reference를 연결하는 과정**
+- **모든 Library Component와 [[Reference]]를 연결하는 과정**
 	- Design이 완성되기 위한 조건
 	- Resolving References라고도 함
 - **[[UPF]]**

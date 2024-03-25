@@ -7,7 +7,7 @@ tags: VLSI
 
 - **외부 Operating Condition 설정**
 	- PVT
-		- Process
+		- (Manufacturing) Process
 		- Voltage
 		- Temperature
 	- Load

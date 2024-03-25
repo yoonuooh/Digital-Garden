@@ -5,8 +5,9 @@ tags: VLSI
 
 ## 설명
 
-- **Design Compiler가 Cell Instance와 Reference를 연결하는데 사용하는 Logic Library**
-	- 모든 Cell Instance와 Library Component를 연결할 때 사용
+- **Design Compiler가 Cell Reference를 Resolve할 때 사용하는 [[Logic Library]]**
+	- [[Target Library]]에서 지정한 Cell을 가지고 있는 Library
+	- Resolving Cell Reference에 사용
 	- Timing과 Path Delay를 계산하는데 사용되는 Delay 정보 등 포함
 
 > ([[Design Compiler User Guide.pdf#page=110&selection=53,0,54,10|Design Compiler User Guide, p.110]])

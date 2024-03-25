@@ -7,9 +7,10 @@ tags: VLSI
 
 - **Design을 GTECH.v으로 변환**
 	- GTECH.v
-		- 연결 정보만 존재
+		- Technology-independent Design
+		- <span style="color: salmon">연결 정보만 존재</span>
 		- Drive Strength, Cell Type 없이 Ideal하게 연결된 상태
-- **HDL의 산술 연산자를 [[DesignWare Library]]의 Components로 대체**
+	- HDL의 산술 연산자를 [[DesignWare Library]] Components로 대체
 - **자동으로 [[Linking Design]] 실행**
 
 > ([[Design Compiler User Guide.pdf#page=152&selection=38,0,39,43|Design Compiler User Guide, p.152]])

@@ -44,7 +44,7 @@ tags: VLSI
 
 ## 정보
 
-- **RTL Synthesis 스텝을 DC, DCG, FC라고 표현**
+- **RTL Synthesis를 DC, DCG, FC라고 표현**
     - 보통 스텝에 해당하는 툴 이름으로 스텝을 표현
     - DCG (Design Compiler Graphical)
         - Floorplan 정보([[DEF]])를 기반으로 합성했을 때
@@ -56,4 +56,4 @@ tags: VLSI
         - Timing Constraints를 명시해서 설계의 Timing 요건을 만족하고 Timing Violation을 방지
 - **Synthesis할 때 UPF와 SDC가 반드시 필요한가?**
     - RTL은 Power 정보와 Timing 정보가 없고 기능 정보만 있음
-    - RTL이 없어도 Synthesis는 가능하지만 Optimization 불가
+    - RTL이 없어도 Synthesis는 가능하지만 Optimization 불가능

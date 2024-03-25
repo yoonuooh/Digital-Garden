@@ -5,10 +5,11 @@ tags: VLSI
 
 ## 설명
 
-- **Library 불러오기**
+- **Library 지정**
 	- [[Logic Library]]
 	- [[Target Library]]
 	- [[Link Library]]
 	- [[Symbol Library]]
 	- [[Synthetic Library]]
-	- [[Physical Library]]
+	- [[DesignWare Library]]
+	- [[Physical Library]] (Option)
